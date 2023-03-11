@@ -85,4 +85,36 @@ jupyter notebook
 ```
 
 ## Compilation
-Execute the first cell of the `cm.ipynb` notebook. 
+Execute the first cell of the `cm.ipynb` notebook.
+
+## Overview
+This project tries to analise a vast dataset provided by the World Health Organization. It attempts to compare a country's life expectancy with other attributes, searching for a correlation and explanation on why life expectancy on that country/region has that value. 
+
+First, an exploratory analiis is made, looking for outliers or curious cases on the dataset. Then, we add new info to the provided dataset by attaching attributes such as: suicide rates, viruses, geographic location, deseases, etc. With all this information on the palm of our hand, we made multiple experiments searching for a reason on why these characteristics may impact life expectancy on a specific country or region. 
+
+### Project's directories and files
+In `data/` one can find the principal dataset and all the `.csv` files added and utilised on the project.
+
+In `notebooks/` reside all the experiments we made.
+
+In `src/` C++ code can be found. There, we implemented the Least Square Method. 
+
+Finally, `Informe.pdf` is the essay. 
+
+### Users should be able to
+- Compile and run the C++ code.
+- Run every Notebook in the project (experiments and testing).
+- Read the essay and compare our conclusions with theirs.
+
+### Built with
+- C++
+- Python
+- Jupyter Notebooks
+- Life Expectancy WHO (World Health Organization) dataset
+
+### What I learnt
+- Add new information to an existent dataset
+- Find outliers, and similarities on different attributes of an object.
+- Work with linear regression.
+- Apply studentized Residuals, H Leverage, Cook Distance, influence plots.
+- Utilise metrics such as $R^2$, $R^2$ adjusted and RMSE.
