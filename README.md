@@ -1,7 +1,7 @@
 # Numerical Methods: "Life Expectancy and Linear Regression" Group Project
-## Made by Oscar Álvarez, Andrés Barbuto, Sebastián Bocaccion and Martín Mallol, 2021, 2nd semester
+## Made by Oscar Álvarez, Andrés Barbuto, Sebastián Bocaccio and Martín Mallol, 2021, 2nd semester
+![Life Expectancy](./life-expectancy.jpg)
 ## Local Setup
-
 1. Create an empty git repo and clone this project
 ```
 git init
